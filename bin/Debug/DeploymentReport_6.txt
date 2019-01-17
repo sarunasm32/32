@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Persons] (Table)
+       [dbo].[Persons].[IX_Persons_name_surname] (Index)
+       [dbo].[PersonsCompanyHistory] (Table)
+       [dbo].[FK_PersonsCompanyHistory_Persons] (Foreign Key)
+       [dbo].[PersonsCompanysView] (View)
+       [dbo].[GetPersonsCompanyHistory] (Function)
+       [dbo].[InsertNewEmployment] (Procedure)
+
+** Supporting actions
